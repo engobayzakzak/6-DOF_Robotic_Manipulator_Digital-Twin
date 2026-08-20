@@ -1,0 +1,56 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /MotionPlanning1
+        - /MotionPlanning1/Planning Scene1
+        - /MotionPlanning1/Planning Request1
+      Splitter Ratio: 0.5
+    Tree Height: 557
+  - Class: moveit_rviz_plugin/MotionPlanning
+    Name: MotionPlanning
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Value: true
+      Plane: XY
+      Reference Frame: world
+    - Class: moveit_rviz_plugin/MotionPlanning
+      Name: MotionPlanning
+      Value: true
+      Planning Scene Topic: /monitored_planning_scene
+      Robot Description: robot_description
+      Planning Group: manipulator
+      Move Group Namespace: ""
+      Planning Request:
+        Planning Group: manipulator
+        Interactive Marker Size: 0.2
+      Planned Path:
+        Loop Animation: false
+        Show Robot Visual: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: world
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 2.2
+      Focal Point:
+        X: 0.0
+        Y: 0.0
+        Z: 0.5
+      Pitch: 0.35
+      Value: Orbit (rviz_default_plugins/Orbit)
+      Yaw: 0.78

@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  manipulator_twin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: manipulator_digital_twin:latest
+    container_name: manipulator_twin_sim
+    network_mode: host
+    ipc: host
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /dev/dri:/dev/dri:rw
+    privileged: true
+    stdin_open: true
+    tty: true
