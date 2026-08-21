@@ -4,7 +4,6 @@
 [![MoveIt 2](https://img.shields.io/badge/MoveIt%202-Motion%20Planning-green.svg)](https://moveit.picknik.ai/)
 [![Gazebo Sim](https://img.shields.io/badge/Gazebo%20Sim-Harmonic%20%2F%20Fortress-orange.svg)](https://gazebosim.org/)
 [![Control](https://img.shields.io/badge/ros2__control-1000Hz%20Realtime-red.svg)](https://control.ros.org/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg)](LICENSE)
 
 An industrial-grade **Software-in-the-Loop (SIL) Digital Twin** of a 6-DOF Anthropomorphic Manipulator with a Spherical Wrist ($6\text{R}$ kinematic chain). The framework incorporates standard Denavit-Hartenberg kinematic modeling, Levenberg-Marquardt singularity-damped Cartesian teleoperation via **MoveIt Servo**, sampling-based collision-avoiding trajectory generation via **MoveIt 2 / OMPL**, multi-body rigid dynamics in **Gazebo Sim**, and deterministic autonomous state-machine sequencing.
 
