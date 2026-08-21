@@ -1,8 +1,4 @@
-Technical Report: Modeling, Differential Kinematics, and Real-Time Control of a 6-DOF Industrial Digital Twin
-
-**Author:** CVSP Mechatronics & Autonomous Systems Team  
-**Date:** August 2026  
-**Target Platform:** ROS 2 Jazzy / Gazebo Sim / MoveIt 2  
+# Technical Report: Modeling, Differential Kinematics, and Real-Time Control of a 6-DOF Industrial Digital-Twin
 
 ---
 
